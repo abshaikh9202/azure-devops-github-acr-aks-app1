@@ -13,7 +13,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '24d34e79-2755-4c21-9d94-b65345af4cc1'
   imageRepository: 'abshaikhazuredevopsgithubacraksapp'
-  containerRegistry: 'aksact.azurecr.io'
+  containerRegistry: 'aksdevopsacr5.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'aksact86be-auth'
